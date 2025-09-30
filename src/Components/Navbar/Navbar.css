@@ -4,10 +4,11 @@
     margin-right: 180px;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+  padding: 0px 30px;
   color: #fff;
   position: relative;
   z-index: 1000;
+  padding-bottom: 30px;
 }
 
 /* Logo */
@@ -34,20 +35,26 @@
     justify-content: center;
     align-items: center;
   list-style: none;
+  
+}
+.navbar-menu li .nav-link:hover{
+  
 }
 
 .navbar-menu li .nav-link {
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
-  transition: color 0.3s ease;
+  font-weight: 500;
+  gap: 20px;
+  transition: 0.3s;
 }
 
-/* .navbar-menu li .nav-link:hover,
-.navbar-menu li .nav-link.active {
-  color: #ff4d4d;
-} */
+.navbar-menu li .nav-link:hover
+ {
+  color: #13436b;
+}
 
 /* ---------- Mobile Styles ---------- */
 @media (max-width:768px) {
