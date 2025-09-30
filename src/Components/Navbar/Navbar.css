@@ -8,6 +8,7 @@
   color: #fff;
   position: relative;
   z-index: 1000;
+  padding-left: 8px;
   padding-bottom: 30px;
 }
 
@@ -37,9 +38,7 @@
   list-style: none;
   
 }
-.navbar-menu li .nav-link:hover{
-  
-}
+
 
 .navbar-menu li .nav-link {
   color: #fff;
