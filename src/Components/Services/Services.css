@@ -1,0 +1,153 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+
+.services-title {
+  position: relative;
+}
+
+.services-title h1 {
+  padding: 0px 30px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.services-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 200px;
+  height: 60px;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 columns on desktop */
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.services-format {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+  border-radius: 10px;
+  border: 2px solid white;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.services-format h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.services-format h2 {
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(265deg, #5992c0 50%, #172d69 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services-format p {
+  color: #d4d4d4;
+  font-size: 24px;
+  line-height: 40px;
+  max-width: 300px;
+}
+
+.services-readmore {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.services-format:hover {
+  border: 2px solid #172d69;
+  background-image: linear-gradient(45deg, #0f1e44, #062e4e);
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+/* ========================= */
+/* RESPONSIVE DESIGN STARTS */
+/* ========================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .services {
+    margin: 60px 100px;
+  }
+
+  .services-title h1 {
+    font-size: 48px;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr 1fr; /* 2 columns on tablet */
+    gap: 30px;
+  }
+
+  .services-format {
+    padding: 40px;
+  }
+
+  .services-format h2 {
+    font-size: 30px;
+  }
+
+  .services-format p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .services {
+    margin: 40px 40px;
+    gap: 40px;
+  }
+
+  .services-title h1 {
+    font-size: 36px;
+  }
+
+  .services-title img {
+    width: 150px;
+    height: 45px;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+    gap: 25px;
+  }
+
+  .services-format {
+    padding: 25px;
+  }
+
+  .services-format h3 {
+    font-size: 22px;
+  }
+
+  .services-format h2 {
+    font-size: 26px;
+  }
+
+  .services-format p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
