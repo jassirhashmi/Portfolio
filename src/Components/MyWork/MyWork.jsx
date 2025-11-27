@@ -6,21 +6,27 @@ import arrow_icon from '../../assets/arrow_icon.svg'
 const MyWork = () => {
   return (
     <>
-    <div id='work' className='mywork'>
+      <div id='work' className='mywork'>
         <div className="mywork-title">
-            <h1>My Latest Work</h1>
-            <img src={theme_pattern} alt="" />
+          <h1>My Latest Work</h1>
+          <img src={theme_pattern} alt="" />
         </div>
         <div className="mywork-container">
-        {mywork_data.map((work,index)=>{
-            return <img key={index} src={work.w_img} alt="" />
-        })}
+          {mywork_data.map((work, index) => {
+            return <img key={index} src={work.w_img} alt=""
+              onClick={() => {
+                if (work.link) {
+                  window.open(work.link, "_blank"); // new tab me open
+                }
+              }}
+              style={{ cursor: work.link ? "pointer" : "default" }} />
+          })}
         </div>
         <div className="mywork-showmore">
-            <p>Show More</p>
-            <img src={arrow_icon} alt="" />
+          <p>Show More</p>
+          <img src={arrow_icon} alt="" />
         </div>
-    </div>
+      </div>
     </>
   )
 }
