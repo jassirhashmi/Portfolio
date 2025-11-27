@@ -10,7 +10,7 @@ const mywork_data = [
         w_no:1,
         w_name:"Web design",
         w_img:project1_img,
-        link: "https://jassirhashmi.vercel.app"
+        link: "https://forever327.vercel.app"
     },
     {
         w_no:2,
