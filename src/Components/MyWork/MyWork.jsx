@@ -16,7 +16,7 @@ const MyWork = () => {
             return <img key={index} src={work.w_img} alt=""
               onClick={() => {
                 if (work.link) {
-                  window.open(work.link, "_blank"); // new tab me open
+                  window.open(work.link, "_blank");
                 }
               }}
               style={{ cursor: work.link ? "pointer" : "default" }} />
