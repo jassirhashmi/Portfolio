@@ -1,33 +1,33 @@
 const Services_Data = [
     {
         s_no:"01",
-        s_name:"Web Application Development",
-        s_desc:"Build responsive and dynamic web apps using MongoDB, Express, React, and Node.js.."
+        s_name:"HTML & CSS",
+        s_desc:"Core building blocks for creating responsive and semantic web layouts."
     },
     {
         s_no:"02",
-        s_name:"RESTful API Development",
-        s_desc:"Create robust APIs to connect frontend and backend seamlessly."
+        s_name:"JavaScript (ES6+)",
+        s_desc:"For dynamic behavior, DOM manipulation, and client-side logic."
     },
     {
         s_no:"03",
-        s_name:"Full-Stack Development",
-        s_desc:"Handle both frontend and backend for complete web solutions."
+        s_name:"React.js",
+        s_desc:"Popular library for building interactive and component-based UIs."
     },
     {
         s_no:"04",
-        s_name:"E-commerce Development",
-        s_desc:"Develop scalable online stores with secure payments and inventory management."
+        s_name:"Responsive Design & CSS Frameworks",
+        s_desc:"Knowledge of Flexbox, Grid, Tailwind CSS, or Bootstrap"
     },
     {
         s_no:"05",
-        s_name:"Database Design & Management",
-        s_desc:"Design efficient MongoDB schemas and optimize database performance."
+        s_name:"Version Control (Git & GitHub)",
+        s_desc:"Managing code changes, collaboration, and deployment workflows."
     },
     {
         s_no:"06",
-        s_name:"Deployment & Cloud Integration",
-        s_desc:"Deploy apps on Vercel, Heroku, Railway, AWS, and integrate cloud services."
+        s_name:"API Integration & AJAX/Fetch",
+        s_desc:"Fetching data from backend services and working with RESTful APIs."
     },
 ]
  
