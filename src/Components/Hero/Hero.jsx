@@ -9,7 +9,7 @@ const Hero = () => {
         <div id='home' className='hero'>
             <img src={profile_img} alt="" className='profile-img' />
             <h1><span>I'm Jassir Hashmi,</span> frontend developer From Pakistan.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex voluptatibus tenetur, quibusdam quos explicabo!</p>
+            <p>I create modern, responsive, and user-friendly web applications using the latest frontend technologies. Passionate about turning ideas into interactive digital experiences and constantly learning to craft clean, efficient, and scalable code.</p>
             
             <div className="hero-action">
                 {/* Smooth scroll connect button */}
