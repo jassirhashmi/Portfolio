@@ -1,6 +1,6 @@
 import project1_img from '../assets/project_1.PNG'
 import project2_img from '../assets/project_2.PNG'
-import project3_img from '../assets/project_3.svg'
+import project3_img from '../assets/project_3.png'
 import project4_img from '../assets/project_4.svg'
 import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'
@@ -21,7 +21,8 @@ const mywork_data = [
     {
         w_no:3,
         w_name:"Web design",
-        w_img:project3_img
+        w_img:project3_img,
+        link: "https://weather-app327.netlify.app"
     },
     {
         w_no:4,
