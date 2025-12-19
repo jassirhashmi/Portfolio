@@ -56,10 +56,16 @@
 }
 
 .hero-resume {
-    padding: 20px 35px;
+    padding: 22px 35px;
     border-radius: 50px;
     border: 2px solid #fff;
     cursor: pointer;
+    background-color: transparent;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero-connect:hover {

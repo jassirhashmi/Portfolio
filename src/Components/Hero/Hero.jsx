@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/profile_img.png'
 import { Link } from "react-scroll";   // 👈 react-scroll import
+import resume from '../../assets/Resume.pdf'
 
 const Hero = () => {
     return (
@@ -20,8 +21,9 @@ const Hero = () => {
                 >
                     Connect with me
                 </Link>
-
-                <div className="hero-resume">My resume</div>
+                <a href={resume} download>
+                    <button  className="hero-resume">My resume</button>
+                </a>
             </div>
         </div>
     )
