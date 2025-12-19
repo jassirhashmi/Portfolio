@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/profile_img.png'
 import { Link } from "react-scroll";   // 👈 react-scroll import
-import resume from '../../assets/Resume.pdf'
+import resume from '../../assets/resume.pdf'
 
 const Hero = () => {
     return (
