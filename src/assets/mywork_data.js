@@ -27,7 +27,8 @@ const mywork_data = [
     {
         w_no:4,
         w_name:"Web design",
-        w_img:project4_img
+        w_img:project4_img,
+        link: "https://food-del327.vercel.app"
     },
     {
         w_no:5,
