@@ -2,7 +2,7 @@ import project1_img from '../assets/project_1.PNG'
 import project2_img from '../assets/project_2.PNG'
 import project3_img from '../assets/project_3.png'
 import project4_img from '../assets/project_4.png'
-import project5_img from '../assets/project_5.svg'
+import project5_img from '../assets/project_5.png'
 import project6_img from '../assets/project_6.svg'
 
 const mywork_data = [
@@ -33,7 +33,8 @@ const mywork_data = [
     {
         w_no:5,
         w_name:"Web design",
-        w_img:project5_img
+        w_img:project5_img,
+        link: "https://quickcart327.vercel.app"
     },
     {
         w_no:6,
