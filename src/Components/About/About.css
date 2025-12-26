@@ -189,7 +189,12 @@
     .about-title h1 {
         font-size: 36px;
     }
-
+    .about-achievments hr{
+    height: 0.5px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: white;
+ }
     .about-title img {
         width: 150px;
         height: 45px;
@@ -220,8 +225,9 @@
         font-size: 14px;
     }
     @media (max-width: 768px) {
+    
   .about-achievments {
-    flex-direction: row;       /* row hi rahe */
+    flex-direction: column;       /* row hi rahe */
     flex-wrap: wrap;           /* agar jagah kam ho toh wrap ho jaye */
     justify-content: center;   /* center align */
     gap: 20px;                 /* spacing between items */
@@ -241,6 +247,14 @@
   .about-achievment p {
     font-size: 13px;
   }
+
+ .about-achievments hr{
+    height: 0.5px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(121, 118, 118);
+    border: none;
+ }
 }
 }
 
